@@ -1,2 +1,2 @@
 # Curso-Js
- Curso JavaScript ursoemVídeo
+ Curso JavaScript cursoemVídeo
