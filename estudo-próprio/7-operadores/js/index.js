@@ -39,7 +39,7 @@ let anos, dias, resultado1, resultado2, resultado3;
 anos = 10;
 dias = 30;
 resultado1 = (anos > 5 && anos < 30);
-resultado2 = (anos === 10 || idade === 2);
+resultado2 = (anos === 10 || dias === 2);
 resultado3 = !(anos === 11)
 console.log(resultado1);
 console.log(resultado2);
