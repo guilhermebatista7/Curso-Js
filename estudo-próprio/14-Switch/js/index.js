@@ -46,3 +46,8 @@ function acharDia() {
             break;
     }
 }
+
+//Palavra com 1º letra maiúscula
+let palavra = "exemplo";
+let novaPalavra = palavra.charAt(0).toUpperCase() + palavra.slice(1);
+console.log(novaPalavra);
