@@ -4,15 +4,15 @@ if(interruptor == 'on') {
     console.log('Lâmpada ligada');
 } else {
     console.log('Lâmpada desligada');
-}
+};
 
 var hora = new Date().getHours();
 if (hora < 12){
-    console.log('Bom dia')
+    console.log('Bom dia');
 } else if (hora < 18){
-    console.log('Boa tarde')
+    console.log('Boa tarde');
 }else{
-    console.log('Boa noite')
+    console.log('Boa noite');
 };
 
 //Condições do input
@@ -26,6 +26,6 @@ function verificar() {
         p.style.color = 'red';
     } else {
         p.innerHTML = 'Tudo certo';
-        p.style.color = 'blue'
+        p.style.color = 'blue';
     }
-}
+};
