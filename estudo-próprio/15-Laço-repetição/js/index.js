@@ -16,3 +16,11 @@ var tamanho = carros.length;
 for(let i=0; i <tamanho; i++) {
     document.getElementById('teste').innerHTML +=carros[i] + ' - ';
 }
+
+//laço fatorial
+var fatorial = 5;
+var resultado = 1;
+for (i=fatorial; i>1; i--){
+    resultado *= i;
+};
+console.log(resultado);
