@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SetTimeout e SetInterval</title>
+</head>
+<body>
+    <h1>Controle de tempo</h1>
+    <h2>SetTimeout</h2>
+    <h3 id="tempo1">0</h3>
+    <button onclick="ativarContagem()" class="start" id="iStart">Ativar Contagem</button>
+    <button class="stop" onclick="pararContagem()">Para Contagem</button>
+    <hr>
+
+    <h2>SetInterval</h2>
+    <h3 id="segundos">0</h3>
+    <button id="começar" onclick="cronometro()">começar</button>
+    <button id="parar" onclick="pararCronometro()">parar</button>
+    <hr>
+
+    <h2>Cronômetro reverso</h2>
+    <h3 id="tempo">10</h3>
+    <button id="iniciar" onclick="acabarTempo()">iniciar</button>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>
