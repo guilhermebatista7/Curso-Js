@@ -87,5 +87,5 @@ var diferencaTempo = dataFinal.getTime() - dataInicial.getTime();
 // devemos usar getTime() para uma coversão em milissegundos
 
 var diferencaDias = Math.ceil(diferencaTempo / (24 * 60 * 60* 1000));
-//converte milissegundos para dias
+//Math.ceil arredonda e a conta converte milissegundos para dias
 console.log(diferencaDias + ' dias');
