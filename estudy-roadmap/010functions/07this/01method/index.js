@@ -8,3 +8,4 @@ const person = {
 
 let res = person.allInformation();
 console.log(res);
+
